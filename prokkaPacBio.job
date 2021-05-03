@@ -1,0 +1,20 @@
+#!/bin/bash --login
+#SBATCH -A g2021012
+#SBATCH -M snowy
+#SBATCH -t 15:00:00
+#SBATCH -J 4451436
+#SBATCH -p core
+#SBATCH -n 2
+
+#load module tools
+
+load module bioinfo-tools
+load module prokka
+
+#Start annotation wih prokka with the use of the contigs file from the assembly step  with canu
+
+prokka --outdir prokka --prefix efaecium contigs.fasta
+
+#Prokka output can be visualised with Artemis
+
+art efaecium.gff

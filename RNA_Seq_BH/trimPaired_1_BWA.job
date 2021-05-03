@@ -1,0 +1,21 @@
+#!/bin/bash --login
+#SBATCH -A g2021012
+#SBATCH -M snowy
+#SBATCH -t 08:00:00
+#SBATCH -J BWA1
+#SBATCH -p core
+#SBATCH -n 2
+
+#load module tools
+
+module load bioinfo-tools
+module load bwa
+module load samtools
+
+#Start BWA
+# Create a index with the efaecium.contigs.fasta file and name it has genome.fa
+bwa index genome.fa
+
+#Start BWA with the trimmed paired and index files
+bwa mem genome.fa trim_paired_ERR1797972_pass_1.fastq.gz trim_paired_ERR1797972_pass_2.fastq.gz  > ERR1797972__paired.sam | samtools sort ERR1797972__paired.sam -o ERR1797972.sorted.bam
+

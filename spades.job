@@ -1,0 +1,17 @@
+#!/bin/bash --login
+#SBATCH -A g2021012
+#SBATCH -M snowy
+#SBATCH -t 06:00:00
+#SBATCH -J spades_Illumina
+#SBATCH -p core
+#SBATCH -n 2
+
+#load module tools
+
+module load bioinfo-tools
+module load spades
+
+#Start assembly wih spadesusing illumina data
+#--careful tries to reduce the number of mismatches and short indels. Uses BWA.
+
+spades.py --careful -1 E745-1.L500_SZAXPI015146-56_1_clean.fq.gz -2 E745-1.L500_SZAXPI015146-56_2_clean.fq.gz -o spades_output
