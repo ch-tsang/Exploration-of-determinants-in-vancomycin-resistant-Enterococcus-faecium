@@ -1,0 +1,80 @@
+Artemis Overview of: PROKKA_05182021.gff
+
+Number of bases: 3153598
+Number of features in the active entries: 3224
+
+Genes (CDS features without a /pseudo or /pseudogene qualifier):
+   non-spliced:
+      count: 3126
+      bases: 2672394
+   all:
+      count: 3126
+      partials: 0
+      bases: 2672394
+      density: 0.991 genes per kb   (1008 bases per gene)
+      average length: 854
+      average length (including introns): 854
+      coding percentage: 84.7
+      coding percentage (including introns): 84.7
+
+      gene sequence composition:
+
+         A content: 896363  (33.54%)
+         C content: 462789  (17.31%)
+         G content: 565154  (21.14%)
+         T content: 748088  (27.99%)
+         (no ambiguous bases)
+         
+         GC percentage: 38.47
+
+rRNA:
+      bases(excluding introns): 27476
+      bases(including introns): 27476
+
+      rRNA sequence composition:
+
+         A content: 7444  (27.09%)
+         C content: 5903  (21.48%)
+         G content: 8317  (30.27%)
+         T content: 5812  (21.15%)
+         (no ambiguous bases)
+         
+         GC percentage: 51.75
+
+tRNA:
+      bases(excluding introns): 5393
+      bases(including introns): 5393
+
+      tRNA sequence composition:
+
+         A content: 1066  (19.76%)
+         C content: 1384  (25.66%)
+         G content: 1657  (30.72%)
+         T content: 1286  (23.84%)
+         (no ambiguous bases)
+         
+         GC percentage: 56.39
+
+
+Overall sequence composition:
+
+A content: 967473  (30.67%)
+C content: 606611  (19.23%)
+G content: 584583  (18.53%)
+T content: 994931  (31.54%)
+(no ambiguous bases)
+
+GC percentage: 37.77
+
+Summary of the active entries:
+fasta_record: 9
+  4 have colour: 11
+  5 have colour: 10
+rRNA: 18
+  18 have no colour
+CDS: 3126
+  3126 have no colour
+tRNA: 70
+  70 have no colour
+tmRNA: 1
+  one has no colour
