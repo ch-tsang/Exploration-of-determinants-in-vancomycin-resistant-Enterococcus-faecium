@@ -1,0 +1,15 @@
+#!/bin/bash --login
+#SBATCH -A g2021012 
+#SBATCH -M snowy
+#SBATCH -t 15:00:00
+#SBATCH -J 4451436
+#SBATCH -p core
+#SBATCH -n 2
+
+#Load modules
+
+module load bioinfo-tools
+module load canu
+
+#Start canu assembly with PacBio data
+canu -p efaecium -d efaecium-pacbioData genomeSize=3m batMemory=64G -pacbio *.fastq.gz

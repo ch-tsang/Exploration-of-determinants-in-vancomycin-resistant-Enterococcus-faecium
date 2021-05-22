@@ -1,0 +1,19 @@
+3153598 9 11
+0 tig00000001 len=2775628 reads=11847 class=contig suggestRepeat=no suggestBubble=no suggestCircular=yes
+0 2775628 0
+0 tig00000004 len=223944 reads=661 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no
+2775628 223944 0
+0 tig00000006 len=17954 reads=21 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no
+2999572 17954 0
+0 tig00000007 len=40016 reads=139 class=contig suggestRepeat=no suggestBubble=no suggestCircular=yes
+3017526 40016 0
+0 tig00000008 len=15610 reads=21 class=contig suggestRepeat=no suggestBubble=no suggestCircular=yes
+3057542 15610 0
+0 tig00000009 len=17106 reads=9 class=contig suggestRepeat=no suggestBubble=no suggestCircular=yes
+3073152 17106 0
+0 tig00000010 len=28462 reads=48 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no
+3090258 28462 0
+0 tig00000011 len=25091 reads=31 class=contig suggestRepeat=no suggestBubble=no suggestCircular=no
+3118720 25091 0
+0 tig00000013 len=9787 reads=4 class=contig suggestRepeat=no suggestBubble=yes suggestCircular=no
+3143811 9787 0
