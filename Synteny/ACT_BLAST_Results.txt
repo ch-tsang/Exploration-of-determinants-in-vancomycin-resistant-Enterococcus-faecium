@@ -1,0 +1,20 @@
+Artemis Overview of: aligned.fasta
+
+Number of bases: 674286
+Number of features in the active entries: 616
+
+
+Overall sequence composition:
+
+A content: 211738  (31.4%)
+C content: 123768  (18.35%)
+G content: 143578  (21.29%)
+T content: 195202  (28.94%)
+(no ambiguous bases)
+
+GC percentage: 39.65
+
+Summary of the active entries:
+fasta_record: 616
+  308 have colour: 11
+  308 have colour: 10
